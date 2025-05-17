@@ -1,7 +1,11 @@
 #!/bin/bash
 
-echo "enter your pin no::"
+# Define variables
+length=10
+breadth=5
 
-read PIN
+# Calculate area
+area=$((length * breadth))
 
-echo "Your no is : $PIN"
+# Print the result
+echo "The area of the rectangle with length $length and breadth $breadth is $area."
