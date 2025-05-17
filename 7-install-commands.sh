@@ -17,3 +17,4 @@ then
 echo "installing MYSQL is sucess ..."
 else 
 echo "installing MYSQL is failure .."
+fi
