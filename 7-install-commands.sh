@@ -10,3 +10,10 @@ echo "you are running with root access"
 fi
 
 dnf install msql -y
+
+if [ $? -eq 0 ]
+
+then
+echo "installing MYSQL is sucess ..."
+else 
+echo "installing MYSQL is failure .."
