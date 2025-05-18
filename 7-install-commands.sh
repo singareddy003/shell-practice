@@ -11,7 +11,7 @@ fi
 
 VALIDATE()
 
-dnf install mysql -y
+dnf install MYSQL -y
 dnf list installed mysql
 
 if [ $? -ne 0]
