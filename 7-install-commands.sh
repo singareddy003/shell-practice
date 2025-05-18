@@ -12,10 +12,10 @@ fi
 VALIDATE(){
     if [ $? -eq 0 ]
 then 
-echo "installing MySQL is .. sucess"
+echo "installing $1 is .. sucess"
 else
 
-echo "installing MySQL is .. failure"
+echo "installing $1 is .. failure"
 exit 1
 fi
 
