@@ -12,6 +12,7 @@ echo "Installing mongodb is .... SUCCESS"
 else 
 echo "Installing mngodb is.....FAILURE"
 exit 1
+
 fi
 
 
