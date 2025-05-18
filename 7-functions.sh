@@ -8,14 +8,14 @@ exit 1 #give other than 0 upto 127
 else
 echo "you are running with root access"
 fi
-
+#validate function takes a input as exit status ,what command they tried to install
 VALIDATE(){
-    if [ $? -eq 0 ]
+    if [ $1 -eq 0 ]
 then 
-echo "installing $1 is .. sucess"
+echo "installing $2 is .. sucess"
 else
 
-echo "installing $1 is .. failure"
+echo "installing $2 is .. failure"
 exit 1
 fi
 
